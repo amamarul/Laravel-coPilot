@@ -15,10 +15,6 @@ $app = new Illuminate\Foundation\Application(
     realpath(__DIR__.'/../')
 );
 
-/*$app = new App\RoboCmsApp(
-    realpath(__DIR__.'/../')
-);*/
-
 /*
 |--------------------------------------------------------------------------
 | Bind Important Interfaces

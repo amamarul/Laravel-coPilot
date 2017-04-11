@@ -25,7 +25,7 @@ return [
     |
     */
 
-    'env' => ( !empty($_SERVER['REMOTE_ADDR']) && $_SERVER['REMOTE_ADDR'] == '51.9.72.188' ? 'local' : env('APP_ENV', 'production') ),
+    'env' => 'local', //( !empty($_SERVER['REMOTE_ADDR']) && $_SERVER['REMOTE_ADDR'] == '51.9.72.188' ? 'local' : env('APP_ENV', 'production') ),
 
     /*
     |--------------------------------------------------------------------------
@@ -38,7 +38,7 @@ return [
     |
     */
 
-    'debug' => ( !empty($_SERVER['REMOTE_ADDR']) && $_SERVER['REMOTE_ADDR'] == '51.9.72.188' ? true : env('APP_DEBUG', false) ),
+    'debug' => true, //( !empty($_SERVER['REMOTE_ADDR']) && $_SERVER['REMOTE_ADDR'] == '51.9.72.188' ? true : env('APP_DEBUG', false) ),
 
     /*
     |--------------------------------------------------------------------------
@@ -167,6 +167,8 @@ return [
          * Package Service Providers...
          */
         Laravel\Tinker\TinkerServiceProvider::class,
+        Barryvdh\Elfinder\ElfinderServiceProvider::class,
+        Unisharp\Ckeditor\ServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -176,8 +178,6 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
-        Caffeinated\Modules\ModulesServiceProvider::class,
 
     ],
 

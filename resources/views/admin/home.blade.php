@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
-    <link rel="stylesheet" href="{{ asset("public/css/AdminLTE.min.css") }}">
-    <link rel="stylesheet" href="{{ asset("public/css/skin-blue.min.css") }}">
-    <link rel="stylesheet" href="{{ asset("public/js/plugins/pace/pace.min.css") }}">
+    <link rel="stylesheet" href="{{ asset("css/AdminLTE.min.css") }}">
+    <link rel="stylesheet" href="{{ asset("css/skin-blue.min.css") }}">
+    <link rel="stylesheet" href="{{ asset("js/plugins/pace/pace.min.css") }}">
+    <link rel="stylesheet" href="{{ asset("css/colorbox.css") }}">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -24,9 +25,12 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="{{ asset("public/js/plugins/AdminLTE/app.min.js") }}"></script>
-    <script src="{{ asset("public/js/plugins/pace/pace.min.js") }}"></script>
-    <script src="{{ asset("public/js/copilot.js") }}"></script>
-    <script src="{{ asset("public/js/admin.js") }}"></script>
+    <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+    <script src="{{ asset("js/jquery.colorbox.js") }}"></script>
+    <script src="{{ asset("packages/barryvdh/elfinder/js/standalonepopup.min.js") }}"></script>
+    <script src="{{ asset("js/plugins/AdminLTE/app.min.js") }}"></script>
+    <script src="{{ asset("js/plugins/pace/pace.min.js") }}"></script>
+    <script src="{{ asset("js/copilot.js") }}"></script>
+    <script src="{{ asset("js/admin.js") }}"></script>
 </body>
 </html>
